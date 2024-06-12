@@ -1,5 +1,3 @@
-# playlist from: https://www.usatoday.com/story/entertainment/music/2023/03/18/taylor-swift-set-list-eras-tour/11499422002/
-
 from collections import defaultdict
 from time import time
 
@@ -109,4 +107,3 @@ for i in range(true_k):
 
 fig = px.scatter(X_lsa, x=0, y=1, color=df["album"])
 fig.show()
-
